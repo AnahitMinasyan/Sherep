@@ -1,0 +1,99 @@
+.MenuPage{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.MenuPageBack{
+    height: 100vh;
+    width: 47%;
+}
+
+.MenuPageBack img {
+    height: 100%;
+    width: 95%;
+}
+
+.MenuPageList{
+    background: black;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin:0 auto;
+    padding-top: 142px;
+}
+
+.MenuPageList h1 {
+    color: white;
+    text-align: center;
+    font-size: 54px;
+    font-weight: 200;
+    opacity: 0.8;
+    text-transform: uppercase;
+}
+
+@media (max-width: 1320px) {
+
+    .MenuPageList h1 {
+
+        font-size: 45px;
+
+
+    }
+
+}
+@media (max-width: 1200px) {
+
+}
+@media (max-width: 992px) {
+
+}
+@media (max-width: 768px) {
+    .MenuPage {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+
+    .MenuPageBack{
+        width: 100%;
+        height: 300px;
+    }
+
+    .MenuPageBack img {
+        width: 100%;
+        /*height: 100wh;*/
+        height: 300px;
+        object-fit: cover;
+    }
+    .MenuPageList{
+        background: black;
+        width: 90%;
+        padding-top: 40px;
+
+    }
+
+    .MenuPageList h1 {
+
+        font-size: 45px;
+        margin: 2px 0;
+
+
+    }
+
+
+}
+@media (max-width: 600px) {
+    .MenuPageBack img {
+        width: 100%;
+        /*height: 100wh;*/
+        height: 300px;
+        object-fit: cover;
+    }
+
+}

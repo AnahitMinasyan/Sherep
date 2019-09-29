@@ -1,0 +1,203 @@
+.MediaPage {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+}
+
+.MediaPageImg{
+    width: 47%;
+    height: 100vh;
+}
+
+.MediaPageImg img {
+    width: 95%;
+    /*height: 100wh;*/
+    height: 100%;
+}
+
+.MediaPageContent {
+    background: black;
+    width: 40%;
+    margin: 0px auto;
+    color: white;
+    opacity:0.8;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 142px;
+}
+
+.MediaPageContent h1{
+    color: white;
+    text-align: center;
+    font-size: 54px;
+    font-weight: 200;
+    opacity: 0.8;
+    text-transform: uppercase;
+}
+
+.MediaAllContent{
+    height: 400px;
+    scroll-behavior: smooth;
+    overflow: scroll;
+    scroll-snap-type: y;
+    overflow-x: hidden;
+    list-style: none;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 1px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: grey;
+    border-radius: 1px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    /*background: #b30000;*/
+}
+
+.MediaContent{
+    width: 80%;
+    color: white;
+    opacity: 0.8;
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+
+}
+
+MediaPageContent li{
+      text-decoration: none;
+        color: white;
+        padding: 5px 10px;
+       background: black;
+        list-style: none;
+        cursor: pointer;
+}
+
+MediaAllContent {
+    color: white
+}
+
+.MediaSummaryText{
+    padding: 0;
+}
+
+
+.MediaData{
+    padding: 0;
+}
+
+
+@media (max-width: 1320px) {
+    .MediaPage {
+
+    }
+
+    .MediaPageImg{
+
+    }
+
+    .MediaPageImg img {
+
+    }
+
+    .MediaPageContent {
+
+    }
+
+    .MediaPageContent h1{
+        font-size: 50px;
+
+    }
+
+    .MediaAllContent{
+
+    }
+}
+@media (max-width: 1200px) {
+    .MediaPage {
+
+    }
+
+    .MediaPageImg{
+
+    }
+
+    .MediaPageImg img {
+
+    }
+
+    .MediaPageContent {
+
+    }
+
+    .MediaPageContent h1{
+        font-size: 45px;
+    }
+
+    .MediaAllContent{
+
+    }
+}
+@media (max-width: 992px) {
+
+
+    .MediaPageContent h1{
+        font-size: 40px;
+    }
+
+    .MediaAllContent{
+
+    }
+}
+@media (max-width: 768px) {
+    .MediaPage {
+    flex-direction: column;
+        height: auto;
+}
+
+.MediaPageImg{
+    width: 100%;
+    height: 300px;
+
+}
+
+.MediaPageImg img {
+    width: 100%;
+    /*height: 100wh;*/
+    height: 300px;
+    object-fit: cover;
+}
+
+.MediaPageContent {
+    width: 90%;
+    margin: 0px auto;
+    padding-top: 40px;
+}
+
+    .MediaPageContent h1{
+        font-size: 35px;
+    }
+
+    .MediaAllContent{
+        height: 320px;
+
+    }
+}
+@media (max-width: 600px) {
+
+    .MediaPageContent h1{
+        font-size: 32px;
+    }
+
+    .MediaAllContent{
+
+    }
+}

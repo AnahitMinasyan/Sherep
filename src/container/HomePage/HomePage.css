@@ -1,0 +1,57 @@
+.HomePage {
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.HomePageText{
+    position: absolute;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    /*margin-top: 390px;*/
+    font-size: 50px;
+    line-height: -1.5;
+    text-transform: uppercase;
+    opacity: 0.8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+}
+
+.HomePageText p {
+    color: white;
+    margin: 0;
+
+}
+
+@media (max-width: 1320px) {
+    .HomePageText{
+        font-size: 44px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .HomePageText{
+        font-size: 40px;
+    }
+}
+@media (max-width: 992px) {
+    .HomePageText{
+        font-size: 37px;
+    }
+}
+@media (max-width: 768px) {
+    .HomePageText{
+        font-size: 33px;
+    }
+}
+
+@media (max-width: 600px) {
+    .HomePageText{
+        font-size: 28px;
+    }
+}

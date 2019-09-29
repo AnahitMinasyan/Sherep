@@ -1,0 +1,173 @@
+.ContactPage {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+}
+
+.ContactMap {
+    width: 47%;
+    height: 100vh;
+
+}
+
+.ContactMap div{
+    width: 47%;
+}
+
+.ContactPageContent {
+    height:600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 60px;
+    padding-top: 142px;
+
+}
+
+.ContactPageContent h1 {
+    color: white;
+    text-align: center;
+    font-size: 54px;
+    font-weight: 200;
+    opacity: 0.8;
+    text-transform: uppercase;
+}
+
+.ContactPageForm {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+form {
+    width: 570px;
+}
+
+.ContactInputField {
+    margin-bottom: 20px;
+}
+
+.ContactInputField input{
+    border: 1px solid grey;
+    background: black;
+    color: white;
+    opacity: 0.8;
+    font-size: 16px;
+    width: 100%;
+    padding: 8px;
+
+}
+
+.ContactInputField textarea {
+    border: 1px solid grey;
+    background: black;
+    color: white;
+    font-size: 16px;
+    opacity: 0.8;
+    width: 100%;
+    height: 100px;
+    padding: 8px;
+}
+
+.SendButton{
+    border: 1px solid grey;
+    background: black;
+    color: white;
+    opacity: 0.8;
+    width: 100px;
+    padding: 10px;
+}
+
+
+.footer {
+    display: none;
+}
+
+@media (max-width: 1320px) {
+    form {
+
+    }
+    .ContactPageContent h1 {
+       font-size: 50px;
+    }
+}
+
+@media (max-width: 1200px) {
+    form {
+        width: 500px;
+    }
+    .SendButton{
+        margin-left: 37px;
+    }
+    .ContactPageContent h1 {
+        font-size: 45px;
+    }
+}
+
+@media (max-width: 992px) {
+    form {
+        width: 400px;
+
+    }
+    .SendButton{
+        margin-left: 30px;
+    }
+    .ContactPageContent h1 {
+        font-size: 40px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .ContactPageContent {
+
+        margin-top: 0px;
+        padding-top: 40px;
+
+    }
+
+    form {
+    width: 600px;
+    }
+    .SendButton{
+        margin-left: 14px;
+    }
+
+    .ContactPage {
+        flex-direction: column;
+        height: auto;
+    }
+    .ContactMap {
+        width: 100%;
+        height: 300px;
+
+    }
+
+    .ContactMap div{
+        width: 100%;
+        height: 300px;
+    }
+
+    .ContactPageContent{
+        height: 400px;
+    }
+    .ContactPageContent h1 {
+        font-size: 35px;
+    }
+
+}
+@media (max-width: 600px) {
+    form {
+        width: 320px;
+    }
+    .SendButton{
+        margin-left: 8px;
+    }
+    .ContactPageContent h1 {
+        font-size: 32px;
+    }
+}

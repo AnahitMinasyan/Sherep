@@ -1,0 +1,79 @@
+.AccordionSection {
+    background: black;
+    color: white;
+    border-bottom: 1px solid gray;
+    padding: 5px 10px;
+}
+
+.AccordionSectionClose{
+    cursor: pointer;
+}
+
+.AccordionSectionFontIcon{
+    right: 0;
+    text-align: right;
+}
+.AccordionSectionFontIcon i{
+    color: white;
+}
+
+
+.AccordionSectionOpen {
+    background: black;
+    color:white;
+    margin-top: 10px;
+    /*padding: "10px 20px"*/
+}
+
+
+
+
+.parent-accordion {
+  width: 100%;
+  border: solid 1.5px rgba(0, 0, 0, 0.09);
+  display: flex;
+      justify-content: space-between;
+}
+
+.AccordionLabel {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px;
+  /*background-color: rgba(226, 226, 226, 0.33);*/
+  cursor: pointer;
+  text-transform: capitalize;
+  font-size: 17px;
+  font-weight: 600;
+  color: #6f6e6e;
+  font-family: sans-serif;
+  transition: background-color .9s;
+}
+.accordion-heading  i{
+
+    right: 0;
+}
+
+
+.AccordionContent {
+  background-color: black;
+  text-transform: capitalize;
+  font-size: 15px;
+  overflow-y: hidden;
+  transition: height .5s, padding .5s;
+  padding-top: 10px;
+  padding-left: 10px;
+  font-family: sans-serif;
+  opacity: 0.8;
+}
+
+.accordion-open {
+  height: 75px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.AccordionSectionClose {
+  height: 0px;
+  padding-top: 0px;
+  padding-left: 10px;
+}

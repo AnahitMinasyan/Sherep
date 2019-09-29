@@ -1,0 +1,17 @@
+.DropdownLinks {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.DropdownLinks span{
+    margin-top: 5px;
+}
+
+.MenuItem {
+    list-style: none;
+}
+.dropdownForm{
+    width: 100px;
+}

@@ -1,0 +1,80 @@
+.footer {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 40px;
+    background-color: transparent;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0 20px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    z-index: 90;
+}
+
+.OpenHours {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* padding-bottom: 40px; */
+    /*margin-top: 734px;*/
+    margin-left: 48px;
+}
+
+.OpenHours p {
+    color: white;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    font-size: 21px;
+    opacity: 0.8;
+}
+
+@media (max-width: 992px) {
+
+    .OpenHours p {
+        font-size: 19px;
+
+    }
+
+    .OpenHours {
+
+        margin-left: 25px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .footer{
+        display: none;
+    }
+
+    .OpenHours p {
+        font-size: 16px;
+
+    }
+
+    .OpenHours {
+
+        margin-left: 15px;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .OpenHours {
+       margin-left: 5px;
+    }
+
+
+    .OpenHours p {
+        font-size: 14px;
+
+    }
+}

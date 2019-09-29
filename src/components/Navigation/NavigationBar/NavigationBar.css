@@ -1,0 +1,71 @@
+.NavigationBar{
+    width: 600px;
+    position: fixed;
+    max-width: 70%;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    z-index: 200;
+    /*background-color: black;*/
+    /*border: 1px solid gray;*/
+
+}
+
+.NavigationBar nav {
+    height: 100%;
+    width: 70%;
+    margin-top: 70px;
+}
+
+.Logo {
+    height: 80%;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+@media (min-width: 769px) {
+    .NavigationBar {
+        display: none;
+    }
+}
+
+.Open {
+    transform: translateX(100%);
+}
+
+.Close {
+    transform: translateX(500%);
+}
+
+.Logo {
+    height: 11%;
+    margin-bottom: 32px;
+}
+
+@media (max-width: 768px) {
+    .NavigationBar {
+        width: 50%;
+        /* max-width: 50%; */
+        /*left: 100px;*/
+        /*top: 100px;*/
+        position: fixed;
+        height: auto;
+        padding: 0;
+        margin: 0;
+        background-color: black;
+        text-align: center;
+    }
+    .NavigationBar nav {
+        /*height: 100%;*/
+        width: 100%;
+        /*margin-top: 70px;*/
+        margin: 0;
+        padding: 0;
+    }
+}

@@ -1,0 +1,56 @@
+.Logo {
+
+    padding: 8px;
+    height: 100%;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.Logo img {
+    height: 110px;
+    width: 170px;
+    object-fit: cover;
+}
+@media (max-width: 992px) {
+    .Logo img {
+        height: 100px;
+        width:140px;
+    }
+
+    .Logo{
+        padding: 0;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .Logo img {
+        height: 85px;
+        width: 120px;
+    }
+
+    .Logo{
+        padding: 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .Logo img {
+        height: 70px;
+        width: 100px;}
+
+    .Logo{
+        padding: 0;
+    }
+}
+
+@media (max-width: 1200px){
+    .Logo img {
+        height: 100px;
+        width:150px;
+    }
+
+    .Logo{
+        padding: 0;
+    }
+}

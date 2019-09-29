@@ -1,0 +1,10 @@
+.MenuItem {
+
+}
+
+.MenuItem a:hover,
+.MenuItem a:active,
+.MenuItem a.active{
+    color:mediumvioletred;
+}
+

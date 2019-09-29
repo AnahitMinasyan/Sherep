@@ -1,0 +1,24 @@
+.SearchLanguage{
+
+    height: 50px;
+
+    padding-right: 20px;
+}
+
+.SearchLanguage p {
+    margin-right: 20px;
+    opacity: 0.8;
+    margin-top: 0;
+}
+
+
+.SearchLanguage i {
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .SearchLanguage{
+        justify-content: center;
+        align-items: center;
+    }
+}

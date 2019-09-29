@@ -1,0 +1,39 @@
+.MediaListDetails {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.MediaListDetails a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    border: 1px solid gray;
+    background: gray;
+
+}
+
+
+@media(max-width: 1320px){
+    .MediaContent p {
+        font-size: 16px;
+    }
+
+}
+@media(max-width: 1200px){
+    .MediaContent p {
+        font-size: 16px;
+    }
+
+}
+@media(max-width: 992px){
+    .MediaContent p {
+        font-size: 14px;
+    }
+
+}
+@media(max-width: 768px){
+    .MediaContent p {
+        font-size: 16px;
+    }
+
+}

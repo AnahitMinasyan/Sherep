@@ -1,0 +1,95 @@
+.Input {
+    width: 100%;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.Label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.InputElement {
+   border: 1px solid grey;
+      background: black;
+      color: white;
+      opacity: 0.8;
+      font-size: 16px;
+      width: 90%;
+      padding: 8px;
+}
+
+.TextareaElement {
+     border: 1px solid grey;
+        background: black;
+        color: white;
+        font-size: 16px;
+        opacity: 0.8;
+        width: 90%;
+        height: 100px;
+        padding: 8px;
+        outline: none;
+}
+
+.SelectElement{
+    border: none;
+    outline: none;
+    background: black;
+    color: white;
+    opacity: 0.8;
+    font-size: 14px;
+    width: 100px;
+    /* padding: 8px; */
+    border-bottom: 1px solid gray;
+}
+
+.InputElement:focus {
+    outline: none;
+    /*background-color: #ccc;*/
+}
+.TextareaElement:focus {
+    outline:none;
+}
+
+.Invalid {
+    border: 1px solid red;
+    background-color: #FDA49A;
+}
+
+
+
+
+@media (max-width: 1320px) {
+
+}
+@media (max-width: 1200px) {
+    .Input {
+        width: 85%;
+        padding-bottom: 20px;
+        box-sizing: border-box;
+    }
+
+}
+
+@media (max-width: 992px) {
+    .Input {
+        margin: 0 auto;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .SelectElement{
+        width: 44px;
+    }
+}
+
+@media (max-width: 768px) {
+    .Input {
+        width: 95%;
+
+    }
+
+}

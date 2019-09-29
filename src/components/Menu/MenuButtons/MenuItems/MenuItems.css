@@ -1,0 +1,48 @@
+.MenuItem {
+
+}
+
+.MenuButton {
+    background: transparent;
+        color: white;
+        border: 1px solid gray;
+       color: white;
+       padding: 8px 30px;
+
+
+}
+
+.MenuButton:hover,
+.MenuButton:active,
+.MenuButton.active
+.MenuButton:focus{
+   background : gray;
+}
+
+@media (max-width: 1320px) {
+
+}
+@media (max-width: 1200px) {
+
+}
+@media (max-width: 992px) {
+    .MenuButton {
+
+        padding: 8px 25px;
+
+
+    }
+
+}
+@media (max-width: 768px) {
+    .MenuButton {
+
+        padding: 8px 15px;
+
+
+    }
+
+}
+@media (max-width: 600px) {
+
+}
