@@ -26,9 +26,16 @@
         box-sizing: border-box;
         z-index: 90;
         margin:10px auto;
-
     /*padding: 10px;*/
 }
+
+.MenuButtons li:hover,
+.MenuButtons li:active,
+.MenuButtons li.active
+.MenuButtons li:focus{
+    background : gray;
+}
+
 
 .MenuButtons a {
     list-style: none;
