@@ -46,7 +46,7 @@
     "promise": "8.0.1",
     "radium": "^0.19.6",
     "react": "^16.9.0",
-    "react-dev-utils": "^4.2.3",
+    "react-dev-utils": "^11.0.4",
     "react-dom": "^16.9.0",
     "react-fontawesome": "^1.6.1",
     "react-image-carousel": "^2.0.18",
