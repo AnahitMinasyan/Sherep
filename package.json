@@ -38,7 +38,7 @@
     "google-maps-react": "^2.0.2",
     "html-webpack-plugin": "2.29.0",
     "jest": "20.0.4",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "object-assign": "4.1.1",
     "owl.carousel": "^2.3.4",
     "postcss-flexbugs-fixes": "3.2.0",
